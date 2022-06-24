@@ -34,3 +34,28 @@ body {
 .row {
   display: block;
 }
+
+h2 {
+  text-align: center;
+}
+
+/* Auf dem kleinen Bildschirm steht die überschrift Mittig
+aber auf dem größem Bildschirm (ab 1200px) steht sie Linksbund */
+
+/* Umbruchtpunkt media qery */
+
+@media (min-width: 1200px) {
+  body {
+    background: red;
+  }
+  h2 {
+    font-size: 36px;
+    text-align: left;
+  }
+
+  .row {
+    display: flex;
+  }
+}
+
+/* Wenn Bildschirm mindestens 1200px */
