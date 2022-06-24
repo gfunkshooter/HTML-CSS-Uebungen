@@ -1,0 +1,16 @@
+{
+  "folders": [
+	{
+		"path": "../../Katzen"
+	},
+	{
+		"path": ".."
+	},
+	{
+		"path": "../../BTA-Kochen"
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "Katzen"
+  }
+}
